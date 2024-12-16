@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML and CSS</title>
+    <link rel="stylesheet" href="Advanced2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="slider">
+            <h2>Featured Products</h2>
+            <!-- Placeholder content for slider -->
+            <div class="slider-content">
+                <img src="slide1.png" alt="">
+                <img src="slide2.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi eaque iusto omnis ex? Maiores dolorum dignissimos quos minus, ipsa sint consequatur iusto temporibus possimus sapiente! Tempora officia quibusdam optio!</p>
+            </div>
+        </section>
+        <aside class="news">
+            <h2>Latest News</h2>
+            <!-- Placeholder content for news -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut saepe natus dolore non, architecto voluptatibus odio libero! Repellendus corrupti illum fugiat modi voluptatibus minima iusto voluptas laudantium aspernatur consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem veritatis quaerat voluptatibus. Dolorum, id ducimus aperiam, voluptatum, repudiandae doloribus enim natus voluptatem ullam debitis a ipsam eum illum. Consectetur?</p>            
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Your Company. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        // Display the dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
